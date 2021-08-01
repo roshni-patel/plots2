@@ -107,7 +107,7 @@ gem 'grape-rails-cache'
 group :development do
   gem 'byebug', platform: :mri
   gem "letter_opener"
-  gem 'listen', '~> 3.5.1'
+  gem 'listen', '~> 3.6.0'
   gem "nifty-generators"
   gem 'web-console', '>= 3.3.0'
 end
@@ -123,7 +123,7 @@ group :test, :development do
   gem 'minitest-reporters', '~> 1.4.3'
   gem 'openssl', '~> 2.2.0'
   gem 'phantomjs'
-  gem 'puma', '~> 5.3'
+  gem 'puma', '~> 5.4'
   gem 'rails-perftest'
   gem 'rake', '~> 13.0.6'
   gem 'rest-client'
